@@ -226,12 +226,12 @@ section, footer.contact {
 }
 
 .hero-photo {
-  width: 96px;
-  height: 96px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border);
-  margin-right: 24px;
+  margin-right: 28px;
   flex-shrink: 0;
 }
 
@@ -245,9 +245,9 @@ section, footer.contact {
 
 @media (max-width: 480px) {
   .hero-photo {
-    width: 68px;
-    height: 68px;
-    margin-right: 16px;
+    width: 80px;
+    height: 80px;
+    margin-right: 18px;
   }
 }
 
