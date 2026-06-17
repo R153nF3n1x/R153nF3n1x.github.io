@@ -219,6 +219,38 @@ section, footer.contact {
   max-width: 700px;
 }
 
+.hero-identity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.hero-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.hero-identity-text .log-label {
+  margin-bottom: 8px;
+}
+
+.hero-identity-text .hero-name {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .hero-photo {
+    width: 56px;
+    height: 56px;
+    margin-right: 14px;
+  }
+}
+
 .hero-name {
   font-family: var(--font-display);
   font-size: clamp(40px, 7vw, 64px);
