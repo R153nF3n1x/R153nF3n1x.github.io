@@ -571,6 +571,14 @@ footer.contact {
 
 .contact-sub {
   color: var(--text-dim);
+  margin-bottom: 20px;
+  font-size: 15px;
+  max-width: 560px;
+}
+
+.contact-meta {
+  font-family: var(--font-mono);
+  color: var(--text-dim);
   margin-bottom: 28px;
-  font-size: 14px;
+  font-size: 13px;
 }
